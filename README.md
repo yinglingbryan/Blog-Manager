@@ -4,4 +4,4 @@ This custom package adds the ability for CMS admins to post and edit blog posts 
 
 Additionally, an individual page is dynamically generated for each blog post with a custom "pretty url", which increases web crawler indexing and boosts SEO for the website.  Has the ability to specify categories, authors, and thumbnail images for each blog post.
 
-This Blog manager is a stand-alone plugin for Concrete 5 and is currently being used on https://mghus.com/blog and https://mycvl.com/blog.
+This Blog manager is a stand-alone plugin for Concrete 5 and is currently being used at https://mghus.com/blog and https://mycvl.com/blog.
