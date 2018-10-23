@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+    <table name="pkgBlogManager">
+        <field name="bID" type="I">
+            <key />
+            <unsigned />
+            <autoincrement />
+        </field>
+
+		<field name="status" type="I"></field>
+
+		<field name="title" type="C" size="64" />
+		<field name="body" type="X"></field>
+		<field name="excerpt" type="C" size="500"></field>
+		
+		<field name="photo" type="I">
+			<unsigned />
+			<default value="NULL" />
+		</field>		
+		
+		<field name="primaryCategory" type="C" size="64"></field>
+		<field name="categories" type="C" size="500"></field>
+				
+		<field name="publishDate" type="D">
+			<default value="0000-00-00 00:00:00"/>
+			<notnull/>
+		</field>
+		
+		<field name="url" type="C" size="255"></field>
+		<field name="author" type="C" size="64" />
+		
+		<field name="metaTitle" type="C" size="64" />
+		<field name="metaDesc" type="C" size="500"></field>
+	</table>
+	
+	<table name="pkgBlogCategoriesManager">
+        <field name="bID" type="I">
+            <key />
+            <unsigned />
+            <autoincrement />
+        </field>
+
+		<field name="name" type="C" size="64" />
+	</table>
+</schema>
